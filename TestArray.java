@@ -23,6 +23,17 @@ public class TestArray
                 max = myList[i];
             }
                  System.out.println("largest element is "+ max);
+
+
+            //finding the smallest element.
+            Double min = myList[0];
+            for (int i=1; i < myList.length; i++)
+            {
+                if(myList[i] < min)
+                    min = myList[i];
+            }
+            System.out.println("smallest element is "+ min);
         
         }
+    }
 
